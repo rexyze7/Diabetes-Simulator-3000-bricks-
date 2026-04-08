@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diabetes Simulator 3000</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-wrapper">
+    <h1>Diabetes Simulator 3000</h1>
+
+ <div class="hud">
+  <p>Score: <span id="score">0</span></p>
+  <p>Time: <span id="time">00:00</span></p>
+  <p>Lives: <span id="lives">3</span></p>
+  <p>Level: <span id="level">1</span></p>
+  <p>Best Score: <span id="bestScore">0</span></p>
+</div>
+
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <div class="controls">
+      <p>Move: ← → or A / D</p>
+      <p>Space = start</p>
+      <p>P = pause</p>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
