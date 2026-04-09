@@ -34,7 +34,7 @@ const assets = {
 // -----------------------------
 let x = WIDTH / 2,
   y = HEIGHT - 80,
-  dx = 4,
+  dx = 0,
   dy = -4,
   ballRadius = 12;
 
