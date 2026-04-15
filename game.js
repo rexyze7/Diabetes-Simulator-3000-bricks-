@@ -151,7 +151,7 @@ function jumpToLevel(targetLevel) {
 // Level settings
 // -----------------------------
 const getRowsForLevel = () => [0, 2, 4, 5][level] || 5;
-const getBallSpeedForLevel = () => [0, 25, 10, 11][level] || 9;
+const getBallSpeedForLevel = () => [0, 6, 8, 11][level] || 9;
 
 // -----------------------------
 // Brick generation
